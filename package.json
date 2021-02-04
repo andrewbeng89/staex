@@ -1,0 +1,24 @@
+{
+  "name": "staex",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-proposal-optional-chaining": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.13",
+    "@rollup/plugin-node-resolve": "^11.1.1",
+    "@rollup/plugin-typescript": "^8.1.1",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint": "^7.19.0",
+    "eslint-plugin-vue": "^7.5.0",
+    "rollup": "^2.38.4",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-exclude-dependencies-from-bundle": "^1.1.17",
+    "typescript": "^4.1.3"
+  },
+  "main": "src/index.js",
+  "peerDependencies": {
+    "vue": "^3.0.5"
+  }
+}
