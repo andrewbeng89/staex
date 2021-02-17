@@ -13,6 +13,7 @@
     "rollup-plugin-exclude-dependencies-from-bundle": "^1.1.17"
   },
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "peerDependencies": {
     "vue": "^3.0.5"
   }

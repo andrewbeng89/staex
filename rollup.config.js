@@ -1,6 +1,5 @@
 import babel from "rollup-plugin-babel";
 import resolve from "@rollup/plugin-node-resolve";
-// import excludeDependenciesFromBundle from "rollup-plugin-exclude-dependencies-from-bundle";
 
 const extensions = [".js"];
 
@@ -16,8 +15,7 @@ export default {
       extensions,
       include: ["src/**/*"],
       runtimeHelpers: true
-    }),
-    // excludeDependenciesFromBundle()
+    })
   ],
   external: ["@vue/reactivity"]
 };
