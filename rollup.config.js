@@ -16,6 +16,14 @@ export default {
       sourcemap: true,
       format: "esm",
     },
+    {
+      file: "dist/index.browser.js",
+      sourcemap: true,
+      format: "iife",
+      globals: {
+        "@vue/reactivity": "VueReactivity"
+      }
+    },
   ],
   plugins: [
     resolve(),
@@ -25,4 +33,5 @@ export default {
     }),
     terser(),
   ],
+  external: ["@vue/reactivity"]
 };
