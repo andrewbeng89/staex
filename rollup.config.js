@@ -22,7 +22,8 @@ export default {
       format: "iife",
       globals: {
         "@vue/reactivity": "VueReactivity"
-      }
+      },
+      name: "Staex"
     },
   ],
   plugins: [
