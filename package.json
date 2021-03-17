@@ -18,7 +18,7 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "dependencies": {
-    "vue": "^3.0.7"
+    "@vue/reactivity": "^3.0.7"
   },
   "scripts": {
     "build": "NODE_ENV=production yarn rollup -c"
