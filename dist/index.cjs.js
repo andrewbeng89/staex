@@ -1,2 +1,2 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var t=require("@vue/reactivity"),e=e=>t.reactive(e),i=({actions:t,initialState:e})=>(i,s)=>{t[i]?.(e,s)};const s=e,a=i,r=({state:s,actions:a})=>{const r=e(s),o=i({actions:a,initialState:r});return{state:t.readonly(r),dispatch:o}};exports.defineStore=r,exports.useActions=a,exports.useState=s;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var t=t=>e=>t(e),e=({actions:t,initialState:e})=>(s,a)=>{t[s]?.(e,a)};const s=t,a=e,i=({reactive:s,readonly:a})=>({state:i,actions:o})=>{const r=t(s)(i),n=e({actions:o,initialState:r});return{state:a(r),dispatch:n}};exports.defineStore=i,exports.useActions=a,exports.useState=s;
 //# sourceMappingURL=index.cjs.js.map

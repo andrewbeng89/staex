@@ -1,4 +1,3 @@
-import { reactive } from "@vue/reactivity";
 
-export default (state) =>
+export default (reactive) => (state) =>
   reactive(state);

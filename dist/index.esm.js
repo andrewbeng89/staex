@@ -1,2 +1,2 @@
-import{reactive as t,readonly as i}from"@vue/reactivity";var a=i=>t(i),e=({actions:t,initialState:i})=>(a,e)=>{t[a]?.(i,e)};const n=a,o=e,s=({state:t,actions:n})=>{const o=a(t),s=e({actions:n,initialState:o});return{state:i(o),dispatch:s}};export{s as defineStore,o as useActions,n as useState};
+var t=t=>a=>t(a),a=({actions:t,initialState:a})=>(i,e)=>{t[i]?.(a,e)};const i=t,e=a,n=({reactive:i,readonly:e})=>({state:n,actions:s})=>{const c=t(i)(n),o=a({actions:s,initialState:c});return{state:e(c),dispatch:o}};export{n as defineStore,e as useActions,i as useState};
 //# sourceMappingURL=index.esm.js.map
